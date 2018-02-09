@@ -2,6 +2,7 @@
 # Language: C++
 # Input: CSV (network)
 # Output: NOA (central nodes and centrality values)
+# Tested with: PluMA 1.0, g++ 4.8
 
 PluMA plugin to compute Katz Prestige Centrality (Katz, 1953), which produces
 a list of the most important nodes in an input network.  The plugin takes
