@@ -107,7 +107,7 @@ for (int i = GSIZE-1; i >= 0; i--)
               max = fabs(U[i]);
            if (fabs(U[i]) < min)
               min = fabs(U[i]);
-           std::cout << bacteria[i] << ": " << U[i] << std::endl;
+           PluginManager::log(std::string(bacteria[i]+": "+std::to_string(U[i])));
            noafile << bacteria[i] << "\t" << U[i] << "\t\t" << GSIZE-i << endl;
         }
 
